@@ -1,0 +1,135 @@
+@font-face
+{
+    font-family: eu;
+    src: local('euphorigenic.ttf'), url('euphorigenic.ttf'), format('truetype');
+}
+
+
+sub
+{
+    font-style: oblique;
+    color: lightblue;
+}
+
+sup
+{
+    font-style:italic;
+    color: lightgreen;
+}
+
+em
+{
+    color: red;
+}
+
+strong
+{
+    font-family: arial;
+}
+
+small
+{
+   color: purple;
+}
+
+
+.div_one
+{
+
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: darkblue;
+    border-right-color: darkblue;
+    margin: 10px;
+    background-color: Gainsboro;
+}
+
+.indent
+{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.div_one h2
+{
+    font-family: eu;
+    color: darkblue;
+}
+
+.section
+{
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-top-width: 1px;
+    border-top-style: dashed;
+}
+
+.hg
+{
+    background-color: lightblue;
+    margin: 10px;
+}
+
+
+code
+{
+    align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: black;
+    color: green;
+}
+
+.lang
+{
+    font-weight: bold;
+    color: pink;
+}
+
+.item_table
+{
+    border-width: 2px;
+    border-style: dashed;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.item_table thead
+{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.item_table tr td
+{
+    border-weight: 1px;
+    border-style: solid;
+}
+
+.item_table tfoot
+{
+    background-color: lightblue;
+    font-style: italic;
+}
+
+.user_input
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    width:50%;
+    background-color: slategrey;
+}
+
+.user_input label
+{
+    margin-left: 40px;
+}
+
+
+
+
